@@ -571,7 +571,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {[
               { icon: "MapPin", label: "Адрес", value: "ул. Автомобильная, 1", sub: "Москва" },
-              { icon: "Phone", label: "Телефон", value: "+7 (999) 000-00-00", sub: "Ежедневно 9:00–21:00" },
+              { icon: "Phone", label: "Телефон", value: "+7 906 013 11 50", sub: "Ежедневно 9:00–21:00" },
               { icon: "Mail", label: "Email", value: "info@blackshine.ru", sub: "Ответим в течение часа" },
               { icon: "Clock", label: "Режим работы", value: "09:00 – 21:00", sub: "Без выходных" },
             ].map(item => (
