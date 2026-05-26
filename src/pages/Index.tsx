@@ -134,13 +134,12 @@ export default function Index() {
       {/* NAV */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur-md border-b border-[#1a1a1a]">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <a href="#home" className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-full gold-gradient flex items-center justify-center">
-              <Icon name="Zap" size={14} className="text-[#0a0a0a]" />
-            </div>
-            <span className="font-display text-xl font-semibold tracking-widest uppercase">
-              Black<span className="text-gold">Shine</span>
-            </span>
+          <a href="#home" className="flex items-center">
+            <img
+              src="https://cdn.poehali.dev/projects/43cfc4b9-b152-499e-b07a-daab39252fc1/bucket/c284e02e-5e98-4318-a3b5-9665869973c9.png"
+              alt="DBC Detailing"
+              className="h-10 w-auto brightness-0 invert"
+            />
           </a>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -600,17 +599,16 @@ export default function Index() {
       {/* FOOTER */}
       <footer className="py-8 px-6 bg-[#080808] border-t border-[#151515]">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <div className="w-6 h-6 rounded-full gold-gradient flex items-center justify-center">
-              <Icon name="Zap" size={10} className="text-[#0a0a0a]" />
-            </div>
-            <span className="font-display text-base tracking-widest uppercase">
-              Black<span className="text-gold">Shine</span>
-            </span>
+          <div className="flex items-center">
+            <img
+              src="https://cdn.poehali.dev/projects/43cfc4b9-b152-499e-b07a-daab39252fc1/bucket/c284e02e-5e98-4318-a3b5-9665869973c9.png"
+              alt="DBC Detailing"
+              className="h-8 w-auto brightness-0 invert opacity-70"
+            />
           </div>
 
           <p className="text-xs text-[hsl(45,10%,35%)] tracking-wide">
-            © 2024 BlackShine Detailing. Все права защищены.
+            © 2024 DBC Detailing. Все права защищены.
           </p>
 
           <div className="hidden md:flex items-center gap-6">
