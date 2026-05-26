@@ -330,6 +330,56 @@ export default function Index() {
         </div>
       </section>
 
+      {/* TEAM */}
+      <section id="team" className="py-24 px-6 bg-[#0a0a0a]">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <div className="section-divider mb-6"></div>
+            <span className="text-gold text-xs uppercase tracking-[0.3em] font-body block mb-4">Наши специалисты</span>
+            <h2 className="font-display text-5xl font-light">
+              Команда <span className="gold-text-gradient italic font-semibold">мастеров</span>
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                name: "Александр Петров",
+                role: "Старший мастер детейлинга",
+                exp: "8 лет опыта",
+                img: "https://cdn.poehali.dev/projects/43cfc4b9-b152-499e-b07a-daab39252fc1/files/c451dd9a-b78b-4b1d-bd0d-5ef9306d70dd.jpg",
+              },
+              {
+                name: "Дмитрий Коваль",
+                role: "Мастер полировки и керамики",
+                exp: "5 лет опыта",
+                img: "https://cdn.poehali.dev/projects/43cfc4b9-b152-499e-b07a-daab39252fc1/files/90a3dad8-c761-4d9a-b8fb-97783c5425a1.jpg",
+              },
+              {
+                name: "Екатерина Смирнова",
+                role: "Специалист по химчистке",
+                exp: "4 года опыта",
+                img: "https://cdn.poehali.dev/projects/43cfc4b9-b152-499e-b07a-daab39252fc1/files/a5ffe5b2-6a0f-4dd7-9b92-87fdac127587.jpg",
+              },
+            ].map(member => (
+              <div key={member.name} className="dark-card rounded-sm overflow-hidden dark-card-hover">
+                <div className="relative h-72 overflow-hidden">
+                  <img src={member.img} alt={member.name} className="w-full h-full object-cover object-top" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent" />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-display text-xl font-semibold text-[hsl(45,30%,92%)]">{member.name}</h3>
+                  <p className="text-gold text-xs uppercase tracking-widest mt-1 mb-2">{member.role}</p>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Award" size={14} className="text-gold" />
+                    <span className="text-xs text-[hsl(45,10%,50%)]">{member.exp}</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* PRICES */}
       <section id="prices" className="py-24 px-6 bg-[#0a0a0a]">
         <div className="max-w-7xl mx-auto">
