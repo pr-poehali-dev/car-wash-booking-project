@@ -136,9 +136,9 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="#home" className="flex items-center">
             <img
-              src="https://cdn.poehali.dev/projects/43cfc4b9-b152-499e-b07a-daab39252fc1/bucket/c284e02e-5e98-4318-a3b5-9665869973c9.png"
+              src="https://cdn.poehali.dev/projects/43cfc4b9-b152-499e-b07a-daab39252fc1/bucket/a7998c67-d8ba-45c2-bf17-9c98a75a2626.png"
               alt="DBC Detailing"
-              className="h-10 w-auto brightness-0 invert"
+              className="h-10 w-auto"
             />
           </a>
 
@@ -601,9 +601,9 @@ export default function Index() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center">
             <img
-              src="https://cdn.poehali.dev/projects/43cfc4b9-b152-499e-b07a-daab39252fc1/bucket/c284e02e-5e98-4318-a3b5-9665869973c9.png"
+              src="https://cdn.poehali.dev/projects/43cfc4b9-b152-499e-b07a-daab39252fc1/bucket/a7998c67-d8ba-45c2-bf17-9c98a75a2626.png"
               alt="DBC Detailing"
-              className="h-8 w-auto brightness-0 invert opacity-70"
+              className="h-8 w-auto opacity-70"
             />
           </div>
 
